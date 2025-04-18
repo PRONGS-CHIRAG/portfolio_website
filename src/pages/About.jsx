@@ -1,7 +1,7 @@
 // pages/About.jsx
 import { motion } from 'framer-motion';
 
-const About = () => {
+function About(){
   return (
     <section className="flex flex-col items-center justify-center text-center min-h-[80vh] px-6">
       <motion.h2 

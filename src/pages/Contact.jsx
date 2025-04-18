@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
 
-const Contact = () => {
+function Contact(){
   return (
     <section className="flex flex-col items-center justify-center text-center min-h-[80vh] px-6 py-12">
       <motion.h2 

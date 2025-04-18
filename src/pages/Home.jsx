@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
-const Home = () => {
+function Home(){
   return (
     <section className="flex flex-col items-center justify-center text-center min-h-[80vh] px-6">
       <motion.h1 

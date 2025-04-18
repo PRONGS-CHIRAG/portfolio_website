@@ -11,7 +11,7 @@ const skills = [
   { name: "GitHub", icon: <FaGithub size={50} /> },
 ];
 
-const Skills = () => {
+function Skills(){
   return (
     <section className="px-6 py-12 text-center">
       <motion.h2 
